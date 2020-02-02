@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark_background"
+    tools:context=".statistics">
+
+
+
+
+        <TextView
+            android:id="@+id/hsno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="100sp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+            android:id="@+id/hs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/highScore"
+            android:fontFamily="monospace"
+            android:textColor="#fff"
+            android:layout_below="@+id/hsno"
+            android:layout_centerInParent="true"
+            />
+
+
+        <TextView
+            android:id="@+id/TotalGames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Flights"
+            android:fontFamily="monospace"
+            android:textColor="#fff"
+            android:layout_marginTop="50sp"
+            android:textSize="30sp"
+            android:layout_below="@+id/hs"
+            />
+
+        <TextView
+            android:id="@+id/average"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50sp"
+            android:textColor="#fff"
+            android:text="Average"
+            android:fontFamily="monospace"
+            android:textSize="30sp"
+            android:layout_below="@+id/TotalGames"
+            />
+
+
+
+</RelativeLayout>

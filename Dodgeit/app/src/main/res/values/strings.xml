@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dodge it</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="stats">Stats</string>
+    <string name="highScore">Highscore</string>
+</resources>
